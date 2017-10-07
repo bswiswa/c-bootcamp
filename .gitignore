@@ -1,0 +1,6 @@
+*/.metadata/*
+.metadata/*
+*/RemoteSystemsTempFiles/*
+RemoteSystemsTempFiles/*
+.DS_Store
+*~

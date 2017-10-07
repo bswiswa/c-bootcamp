@@ -1,0 +1,61 @@
+Notes from C Bootcamp: www.gribblelab.org/CBootCamp
+
+C is a high-level programming language that was first developed by Dennis Ritchie at Bell Labs in the early 1970s
+
+Advantages of C:
+	  - fast
+	  - portable
+	  - small (unlike C++ for example)
+	  - mature
+	  - direct access to memory
+	  - access to low-level system features if needed
+Challenges of C:
+	   - small language
+	   - easy to get into trouble eg with direct memory access & pointers
+	   - coding cycle is longer: code -> compile -> test(crash) -> debug
+	   - you have to manage memory yourself
+	   - sometimes code is more verbose than in higher-level scripting languages
+
+When to use C:
+     - When you need speed and better performance use C
+     - use interpreted languages like Python and R for prototyping - that is exploring small amounts of data, developing an approach, creating algorithms and generating graphics
+
+Checking if you have the C program compiler: in Terminal type gcc --version
+
+
+A data structure is a way to store and organize data in a computer so that the data can be used efficiently
+Abstract data types are entities of data or operations but they do not have any implementation details. Examples of abstract data structures are:
+	 arrays, linked list, trees, queues, stacks, graph
+
+
+Array	 	 	      	     	     List
+- constant time to access elements O(1)	     - You have to go through each element at a time O(n)
+- we have to guess memory size so	     - flexible memory. No unused memory O(1)
+we do not run out because array has	     - insertion cost O(n) since you have to traverse to the position
+fixed size. Needs large contiguous blocks
+of memory for large data which may not be
+available. If array is full, we have to 
+create another larger array and copy all the
+values there. So insertion takes operation
+cost proportional to its size n, O(n)
+- easier to use					- not easy to use
+
+A stack is a list or collection with the restriction that insertion or deletion can only be performed from one end, called the top of stack
+2 fundamental operations insertion/push and pop/removing most recent item. a top operation returns element at the top. Stack is also
+called a Last In First Out structure (LIFO)
+- 
+A queue is a first in first out structure, similar to a real life queue. It has 2 fundamental operations - enqueue and dequeue.
+
+A tree is a collection of entities called nodes, linked together to similate a hierrarchy. The top node is called the root of the tree and it may have links to other nodes called its children. Each subsequent node may have children of its own. Leaf nodes have no children. Internal nodes only have one child. Cousin nodes do not have the same parent but have the same grandparent.
+Applications of trees:
+	     file system
+	     binary search	
+	     trie - dictionary
+	     network routing algorithms
+
+Binary search tree is a binary tree in which for each node, the value of all the nodes in the left sub-tree is lesser  equal and the value of all nodes in the right-subtree is greater
+Tree traversals:
+     -pre-order traversal: root -> left -> right
+     - in order traversal: left -> root -> right
+     - postorder traversal: left -> right -> root
+In order translation of a BST will give out a sorted list
