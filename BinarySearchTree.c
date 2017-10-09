@@ -105,7 +105,8 @@ int FindHeight(bst* root){
     return -1;
   else
     return maxInt(FindHeight(root->left), FindHeight(root->right)) + 1;
-  }
+}
+
 struct Queue{
   bst* root;
   struct Queue* next;
