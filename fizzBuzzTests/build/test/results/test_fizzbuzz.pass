@@ -1,0 +1,31 @@
+---
+:source:
+  :path: test
+  :file: test_fizzbuzz.c
+:successes:
+- :test: test_if_3_then_green
+  :line: 12
+  :message: ''
+- :test: test_if_5_then_red
+  :line: 18
+  :message: ''
+- :test: test_if_6_then_green
+  :line: 23
+  :message: ''
+- :test: test_if_10_then_red
+  :line: 28
+  :message: ''
+- :test: test_if_2_then_no_color
+  :line: 33
+  :message: ''
+- :test: test_if_15_then_blue
+  :line: 38
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 6
+  :passed: 6
+  :failed: 0
+  :ignored: 0
+:stdout: []
