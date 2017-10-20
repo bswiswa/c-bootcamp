@@ -34,7 +34,7 @@ Array	 	 	      	     	     List
 we do not run out because array has	     - insertion cost O(n) since you have to traverse to the position
 fixed size. Needs large contiguous blocks
 of memory for large data which may not be
-available. If array is full, we have to 
+available. If array is full, we have to
 create another larger array and copy all the
 values there. So insertion takes operation
 cost proportional to its size n, O(n)
@@ -43,13 +43,13 @@ cost proportional to its size n, O(n)
 A stack is a list or collection with the restriction that insertion or deletion can only be performed from one end, called the top of stack
 2 fundamental operations insertion/push and pop/removing most recent item. a top operation returns element at the top. Stack is also
 called a Last In First Out structure (LIFO)
-- 
+-
 A queue is a first in first out structure, similar to a real life queue. It has 2 fundamental operations - enqueue and dequeue.
 
 A tree is a collection of entities called nodes, linked together to similate a hierrarchy. The top node is called the root of the tree and it may have links to other nodes called its children. Each subsequent node may have children of its own. Leaf nodes have no children. Internal nodes only have one child. Cousin nodes do not have the same parent but have the same grandparent.
 Applications of trees:
 	     file system
-	     binary search	
+	     binary search
 	     trie - dictionary
 	     network routing algorithms
 
